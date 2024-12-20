@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CATNEE - Catálogo de Espécies Endêmicas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-green-700 text-white py-4 shadow-md">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">CATNEE</h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:underline">Início</a></li>
+            <li>
+              <a href="#categorias" class="hover:underline">Categorias</a>
+            </li>
+            <li><a href="#sobre" class="hover:underline">Sobre</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="bg-cover bg-center h-96"
+      style="
+        background-image: url('https://source.unsplash.com/1920x1080/?capeverde,nature');
+      "
+    >
+      <div
+        class="h-full bg-black bg-opacity-50 flex items-center justify-center"
+      >
+        <h2 class="text-white text-4xl font-bold text-center">
+          Catálogo Nacional de Espécies Endêmicas e Ameaçadas
+        </h2>
+      </div>
+    </section>
+
+    <!-- Categorias -->
+    <section id="categorias" class="py-8">
+      <div class="container mx-auto">
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">Categorias</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white p-4 shadow-md rounded-lg">
+            <h4 class="text-lg font-bold">Líquenes</h4>
+            <p>92 espécies registradas</p>
+            <a href="#" class="text-green-700 hover:underline">Explorar</a>
+          </div>
+          <div class="bg-white p-4 shadow-md rounded-lg">
+            <h4 class="text-lg font-bold">Briófitas</h4>
+            <p>61 espécies registradas</p>
+            <a href="#" class="text-green-700 hover:underline">Explorar</a>
+          </div>
+          <div class="bg-white p-4 shadow-md rounded-lg">
+            <h4 class="text-lg font-bold">Insetos</h4>
+            <p>525 espécies registradas</p>
+            <a href="#" class="text-green-700 hover:underline">Explorar</a>
+          </div>
+          <div class="bg-white p-4 shadow-md rounded-lg">
+            <h4 class="text-lg font-bold">Répteis</h4>
+            <p>37 espécies registradas</p>
+            <a href="#" class="text-green-700 hover:underline">Explorar</a>
+          </div>
+          <div class="bg-white p-4 shadow-md rounded-lg">
+            <h4 class="text-lg font-bold">Aves</h4>
+            <p>35 espécies registradas</p>
+            <a href="#" class="text-green-700 hover:underline">Explorar</a>
+          </div>
+          <div class="bg-white p-4 shadow-md rounded-lg">
+            <h4 class="text-lg font-bold">Mamíferos</h4>
+            <p>14 espécies registradas</p>
+            <a href="#" class="text-green-700 hover:underline">Explorar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="bg-gray-200 py-8">
+      <div class="container mx-auto">
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">Sobre o CATNEE</h3>
+        <p>
+          O CATNEE é uma plataforma interativa para explorar e aprender mais
+          sobre as espécies endêmicas e ameaçadas de Cabo Verde. Nosso objetivo
+          é fornecer informações detalhadas e visuais para apoiar esforços de
+          conservação.
+        </p>
+        <p class="mt-4">
+          Atualmente, contamos com dados de mais de 1.100 espécies, distribuídas
+          em 15 categorias, incluindo detalhes sobre habitat, distribuição
+          geográfica e estado de conservação. Junte-se a nós para proteger a
+          biodiversidade única de Cabo Verde!
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-700 text-white py-4 mt-8">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 CATNEE. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
