@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CATNEE - Malacostraca Isopoda</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <link href="style.css" rel="stylesheet" />
     <script
       src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
       integrity="sha512-tAGcCf1A4A4lX0LsnViuX2UzoUnB2Sa9i5VXENKdfPBAzZ+0x5A+8MDf9T+D7KQOl2RtxSzJIj8CZw+vD4ZYZw=="
@@ -22,14 +19,14 @@
   </head>
   <body class="bg-gray-100 font-sans">
     <!-- Header -->
-    <header class="bg-green-700 text-white py-4 shadow-md">
+    <header>
       <div class="container mx-auto flex justify-between items-center">
-        <h1 class="text-2xl font-bold">CATNEE</h1>
+        <h1>CATNEE</h1>
         <nav>
           <ul class="flex space-x-4">
-            <li><a href="#" class="hover:underline">Início</a></li>
-            <li><a href="#mapa" class="hover:underline">Mapa</a></li>
-            <li><a href="#sobre" class="hover:underline">Sobre</a></li>
+            <li><a href="#">Início</a></li>
+            <li><a href="#mapa">Mapa</a></li>
+            <li><a href="#sobre">Sobre</a></li>
           </ul>
         </nav>
       </div>
@@ -37,17 +34,13 @@
 
     <!-- Hero Section -->
     <section
-      class="bg-cover bg-center h-96"
+      class="hero"
       style="
         background-image: url('https://source.unsplash.com/1920x1080/?isopoda,nature');
       "
     >
-      <div
-        class="h-full bg-black bg-opacity-50 flex items-center justify-center"
-      >
-        <h2 class="text-white text-4xl font-bold text-center">
-          Malacostraca Isopoda - Espécies Endêmicas
-        </h2>
+      <div>
+        <h2>Malacostraca Isopoda - Espécies Endêmicas</h2>
       </div>
     </section>
 
@@ -81,7 +74,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-green-700 text-white py-4 mt-8">
+    <footer>
       <div class="container mx-auto text-center">
         <p>&copy; 2024 CATNEE. Todos os direitos reservados.</p>
       </div>
