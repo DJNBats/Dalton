@@ -188,3 +188,24 @@ header {
   50% { transform: scale(1.05); }
   100% { transform: scale(1); }
 }
+
+@media screen and (max-width: 1110px) {
+  .menu,
+  .social{
+      display: none;
+  }
+
+  .logo{
+      width: 100%;
+  }
+
+  #btn-menu,
+  #menu-mobile{
+      display: block;
+  }
+
+  #menu-mobile.active{
+      height: calc(100vh - 77px);
+      visibility: visible;
+  }
+}
