@@ -1,10 +1,11 @@
 
 :root {
-  --primary: #1565C0;
-  --secondary: #0D47A1; 
+  --primary: #769e8e;
+  --secondary: #23524B; 
+  --third: #4FB8A8;
   --accent: #64B5F6;
   --text: #212121;
-  --background: #FFFFFF;
+  --background: #769e8e;
 }
 
 * {
@@ -21,15 +22,15 @@ body {
 }
 
 header {
-  background: var(--primary);
-  color: white;
+  background:#D9D9D9;
+  color: black;
   padding: 2rem;
   text-align: center;
   position: relative;
 }
 
 .hero {
-  background: linear-gradient(to right, var(--primary), var(--secondary));
+  background: linear-gradient(to right, var(--third), var(--secondary));
   color: white;
   padding: 5rem 2rem;
   text-align: center;
