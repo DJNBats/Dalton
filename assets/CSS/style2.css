@@ -72,6 +72,14 @@ header {
   padding-top: 10px;
 }
 
+section h2{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+
 .mapas {
   margin: 120px 150px 120px 150px;
   height: 400px;
