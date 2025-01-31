@@ -28,6 +28,8 @@ body {
   font-size: 1rem; /* Usar rem para responsividade */
   margin: 30px 150px 30px 150px;
   margin: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -99,6 +101,19 @@ section h2{
   background: linear-gradient(59deg , #4FB8A8, #23524B);
 }
 
+.sobre h3{
+  color: rgb(10, 231, 165);
+  padding-left:45px;
+  padding-right: 45px;
+  margin-top: 25px;
+}
+
+.sobre p{
+  color: rgb(255, 255, 255);
+  padding-left:15px;
+  margin-right: 15px;
+}
+
 .menu{
   width: 50%;
 }
@@ -148,8 +163,7 @@ section h2{
 }
 
 .btn{
-  padding: 25px 50px;
-  display: inline;
+  padding: 15px 30px;
   background-color: #26BD6C;
   border-radius: 15px;
   color: #fff;
@@ -159,7 +173,6 @@ section h2{
   position: absolute;
   left: 25%;
   transform: translate(-50%, -50%);
-  z-index: 1;
 }
 
 .btn:hover{
@@ -167,24 +180,34 @@ section h2{
 }
 
 .info{
-  padding: 25px 50px;
-  display: inline;
+  padding: 15px 30px;
   background-color: #26BD6C;
   border-radius: 15px;
-  color: #fff;
   font-size: 20px;
   cursor: pointer;
   transition: background-color 0.5s;
-  left: 75%;
   transform: translate(-50%, -50%);
-  z-index: 1;
-  text-decoration: none;
+}
+
+.info a{
+  color: #fff;  
+}
+
+.btn a{
+  color: #fff;  
 }
 
 .info:hover{
   background-color: #058f3a;
 }
 
+.more-info{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  gap: 50px;
+}
 
 footer {
   padding: 40px 4%;
