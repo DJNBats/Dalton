@@ -67,9 +67,43 @@ header {
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background: linear-gradient(45deg , #4FB8A8, #23524B);
-  display: flex;
   justify-content: center;
   padding-top: 10px;
+}
+
+.categs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.imagemes{
+  width: 200px;
+  height: 150px;
+  margin-top: 7px;
+  margin-bottom: 0;
+  border-radius: 10px;
+}
+
+.categoria123{
+  background: white;
+  width: 200px;
+  height: 200px;
+  margin-top: 70px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.categoria123:hover{
+  transform: scale(1.1);
+}
+
+.categs h3{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
 
 section h2{
