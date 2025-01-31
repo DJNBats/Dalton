@@ -31,10 +31,40 @@ header {
   text-align: center;
   position: relative;
   margin: 30px 150px 30px 150px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu{
+  width: 50%;
 }
 
 .menu nav a{
-  color: black;
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 30px;
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.menu nav a::after{
+  content: " ";
+  width: 0px;
+  height: 4px;
+  background-image: linear-gradient(45deg , #00ff62, #05ecec);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+  width: 30px;
+}
+
+.menu nav a:hover{
+  color: #ffffff;
 }
 
 .contentor{
