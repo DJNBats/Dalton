@@ -140,9 +140,9 @@ header {
 }
 
 .btn{
-  padding: 25px 60px;
+  padding: 25px 50px;
   display: inline;
-  background-color: tomato;
+  background-color: #26BD6C;
   border-radius: 15px;
   color: #fff;
   font-size: 20px;
@@ -155,21 +155,67 @@ header {
 }
 
 .btn:hover{
-  background-color: #ff4c2c;
+  background-color: #058f3a;
 }
 
-.modal-container{
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #0000004b;
-  z-index: 999;
-  align-items: center;
-  justify-content: center;
-  display: none;
+.info{
+  padding: 25px 50px;
+  display: inline;
+  background-color: #26BD6C;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-decoration: none;
 }
+
+.info:hover{
+  background-color: #058f3a;
+}
+
+
+footer {
+  padding: 40px 4%;
+  box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .line-footer {
+  padding: 20px 0;
+}
+
+.borda {
+  border-top: 2px solid #00FF08;
+}
+
+footer .line-footer p i {
+  color: #00FF08;
+  font-size: 22px;
+}
+
+footer .line-footer p a {
+  color: #fff;
+}
+
+.btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #00FF08;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: .2s;
+}
+
 
 
 @keyframes animate-modal {
@@ -184,13 +230,6 @@ header {
   }
 }
 
-.modal-container.mostrar{
-  display: flex;
-}
-
-.mostrar .modal{
-  animation: animate-modal .3s;
-}
 
 @media (max-width: 768px) {
   body {
@@ -212,6 +251,16 @@ header {
   .menu nav a {
     padding: 0.5rem 0; /* Ajustar o padding */
   }
+
+      /* RODAPÉ */
+  footer .flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .line-footer {
+        text-align: center;
+    }
 }
 
 
