@@ -67,6 +67,9 @@ header {
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background: linear-gradient(45deg , #4FB8A8, #23524B);
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 .mapas {
@@ -77,10 +80,10 @@ header {
   background: linear-gradient(45deg , #519177, #182B23);
 }
 
+
 .sobre {
-  width: 1204px;
-  height: 490px;
-  margin: 50px auto;
+  margin: 120px 150px 120px 150px;
+  height: 400px;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
