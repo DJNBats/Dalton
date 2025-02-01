@@ -12,13 +12,15 @@ var categorias = document.querySelectorAll(".categoria123");
 // Adiciona um evento de clique a cada categoria
 categorias.forEach(function(categoria) {
   categoria.addEventListener("click", function() {
-    // Obtém o título e a imagem da categoria clicada
+    // Obtém o título, a imagem e a descrição da categoria clicada
     var title = categoria.querySelector("h3").innerText;
     var imgSrc = categoria.querySelector("img").src;
+    var description = categoria.querySelector(".descricao").innerText;
 
     // Atualiza o conteúdo da modal
     document.getElementById("modal-title").innerText = title;
     document.getElementById("modal-image").src = imgSrc;
+    document.getElementById("modal-description").innerText = description;
 
     // Exibe a modal
     modal.style.display = "block";
