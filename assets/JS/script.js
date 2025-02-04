@@ -1,4 +1,5 @@
 // script3.js
+const modalChairName = document.getElementById('Soteriscus');
 
 // Obtém a modal
 var modal = document.getElementById("myModal");
