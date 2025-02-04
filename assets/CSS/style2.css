@@ -342,6 +342,47 @@ section h2{
   cursor: pointer;
 }
 
+footer {
+  background: var(--secondary);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  color: white;
+}
+
+.footer-social .social-icon img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.footer-social .social-icon:hover img {
+  transform: scale(1.2);
+}
+
+.footer-info p {
+  font-size: 14px;
+}
 
 
 @keyframes animate-modal {
