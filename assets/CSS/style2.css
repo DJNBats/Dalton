@@ -289,43 +289,16 @@ section h2{
   margin-left: 100px;
 }
 
-footer {
-  padding: 40px 4%;
-  box-shadow: 0 0 40px 10px #ffffff1d;
+.contactos{
+  background: linear-gradient(59deg , #4FB8A8, #23524B);
+  margin-top: 80px;
+  border-radius: 10px;
+  height: 250px;
 }
 
-footer .flex {
-  justify-content: space-between;
-}
 
-footer .line-footer {
-  padding: 20px 0;
-}
 
-.borda {
-  border-top: 2px solid #00FF08;
-}
 
-footer .line-footer p i {
-  color: #00FF08;
-  font-size: 22px;
-}
-
-footer .line-footer p a {
-  color: #fff;
-}
-
-.btn-social button {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: none;
-  background-color: #00FF08;
-  font-size: 22px;
-  cursor: pointer;
-  margin: 0 5px;
-  transition: .2s;
-}
 
 /* Estilos da Modal */
 .modal {
