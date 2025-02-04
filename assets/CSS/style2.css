@@ -121,7 +121,7 @@ section h2{
 
 .descricao{
   justify-content: center;
-  color: white;
+  color: rgba(255, 255, 255, 0);
   font-size: smaller;
 }
 .mapas {
@@ -314,7 +314,7 @@ section h2{
   width:100%; /* Largura total */
   height: 100%; /* Altura total */
   overflow: auto; /* Ativa rolagem se necessário */
-  background-color: rgba(0,0,0,0.4); /* Cor de fundo com opacidade */
+  background-color: rgba(0, 0, 0, 0.493); /* Cor de fundo com opacidade */
   display: flex;
   color: white;
 }
@@ -324,7 +324,7 @@ section h2{
   height: 300px;
 }
 .modal-content {
-  background-color: #14865a6b;
+  background-color: #14865aec;
   margin: 15% auto; /* 15% do topo e centraliza */
   padding: 20px;
   border-radius: 10px;
